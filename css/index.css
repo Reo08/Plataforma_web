@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+    background-color: #f4f4f4;
+}
+section {
+    width: 80%;
+    min-height: 1000px;
+    margin: 0px auto 0px auto;
+    background-image: url('/V1/img/fondo_login.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+section > img {
+    width: 425px;
+    margin-top: 106px;
+    margin-right: 57px;
+    margin-bottom: 30px;
+}
+section > div {
+    width: 50%;
+    height: 400px;
+    padding: 0px 60px;
+}
+form {
+    width: 417px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+form > label {
+    display: block;
+    margin-bottom: 6px;
+}
+form > input {
+    width: 413px;
+    height: 47px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 17px;
+}
+form > input:focus {
+    outline: 5px solid #00a99e9f;
+}
+form > input::placeholder {
+    font-size: 13px;
+    color: #fff;
+}
+form > input:invalid {
+    background-color:rgba(252, 89, 89, 0.767);
+}
+form > input:valid {
+    background-color: #78be00c5;
+}
+form > button {
+    width: 190px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #212529;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    font-size: 17px;
+    align-self: center;
+    cursor: pointer;
+}
